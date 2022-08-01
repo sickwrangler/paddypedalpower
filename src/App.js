@@ -9,7 +9,7 @@ const App = () => {
       <div classname="gradient_bg">
         <navbar></navbar>
         <header></header>
-      </div>
+      </div>ß
       <brand/>
       <whatpaddypedalpower/>
       <features/>
