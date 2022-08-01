@@ -10,13 +10,13 @@ const App = () => {
         <navbar></navbar>
         <header></header>
       </div>
-      <brand></brand>
-      <whatpaddypedalpower></whatpaddypedalpower>
-      <features></features>
-      <possibility></possibility>
-      <cta></cta>
-      <blog></blog>
-      <footer></footer>
+      <brand/>
+      <whatpaddypedalpower/>
+      <features/>
+      <possibility/>
+      <cta/>
+      <blog/>
+      <footer/>
 
     </div>
   )
