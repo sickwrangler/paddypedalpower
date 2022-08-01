@@ -1,10 +1,10 @@
 import React from 'react';
 import './whatpaddypedalpower.css';
 
-const whatpaddypedalpower = () => {
+const Whatpaddypedalpower = () => {
   return (
     <div>whatpaddypedalpower</div>
   )
 }
 
-export default whatpaddypedalpower
+export default Whatpaddypedalpower;

@@ -7,4 +7,4 @@ const features = () => {
   )
 }
 
-export default features
+export default features;

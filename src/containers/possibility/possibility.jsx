@@ -7,4 +7,4 @@ const possibility = () => {
   )
 }
 
-export default possibility
+export default possibility;

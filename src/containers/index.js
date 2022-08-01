@@ -1,6 +1,6 @@
-export { default as blog } from './blog/blog'
-export { default as features } from './features/features'
-export { default as footer } from './footer/footer'
-export { default as header } from './header/header'
-export { default as possibility } from './possibility/possibility'
-export { default as whatpaddypedalpower } from './whatpaddypedalpower/whatpaddypedalpower'
+export { default as Blog } from './blog/blog';
+export { default as Features } from './features/features';
+export { default as Footer } from './footer/footer';
+export { default as Header } from './header/header';
+export { default as Possibility } from './possibility/possibility';
+export { default as Whatpaddypedalpower } from './whatpaddypedalpower/whatpaddypedalpower';
