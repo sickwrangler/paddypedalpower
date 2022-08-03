@@ -23,7 +23,7 @@ const [toggleMenu, setToggleMenu] = useState(false);
       <div className="navbar-links">
         <div className="navbar-links-logo">
           <h1 className="logo">Pedal Power</h1> 
-          <GiDutchBike color="#fff" size={35}></GiDutchBike>
+          <GiDutchBike className='slide-right' color="#fff" size={35}></GiDutchBike>
         </div>
         <div className="navbar-links-container">
           <Menu></Menu>
