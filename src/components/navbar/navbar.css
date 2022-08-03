@@ -1,5 +1,5 @@
 .logo {
-    color: aliceblue;
+    color: var(--color-text);
     font-family: var(--font-family);
 }
 
@@ -37,7 +37,7 @@
 .navbar-links-container p,
 .navbar-sign p,
 .navbar-menu-container p { 
-color: #fff;
+color:var(--color-text);
 font-family: var(--font-family);
 font-weight: 500;
 font-size: 1.2rem;
@@ -52,7 +52,7 @@ cursor: pointer;
     padding: 1rem 1.2rem;
     background: #e42a00;
     border-radius: 5px;
-    color: #fff;
+    color: var(--color-text);
 font-family: var(--font-family);
 font-weight: 500;
 font-size: 1.2rem;
