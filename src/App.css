@@ -42,7 +42,7 @@ background-clip: text;
 }
 
 .section_padding { 
-    padding: 4rem 6rem;
+    padding: 4rem 0 0 6rem;
 }
 
 .section_margin { 

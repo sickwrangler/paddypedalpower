@@ -17,15 +17,14 @@ const header = () => {
           <div className='header-content_input'>
           <input type='email' placeholder='Your email address'></input>
         <button> Learn more</button>
-        <div className='header-image'>
-            <img src={catcargo} alt="cat in cargo bike"/>
-           </div>
         </div>
-        <div className='header-content_people'>
-           </div>
+        
 
            
       </div>
+      <div className='header-image'>
+            <img src={catcargo} alt="cat in cargo bike"/>
+           </div>
       </div>
   )
 }
