@@ -50,14 +50,15 @@ cursor: pointer;
 .navbar-sign button,
 .navbar-menu-container button { 
     padding: 1rem 1.2rem;
-    background: #e42a00;
+    background: var(--color-subtext);
     border-radius: 5px;
-    color: var(--color-text);
+    color: black;
 font-family: var(--font-family);
-font-weight: 500;
+font-weight: bold;
 font-size: 1.2rem;
 line-height: 25px;
 cursor: pointer;
+font-style:italic;
 }
 
 .navbar-menu { 

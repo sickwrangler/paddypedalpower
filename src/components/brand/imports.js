@@ -1,13 +1,8 @@
-import google from '../../assets/google.png'
-import slack from '../../assets/slack.png'
-import atlassian from '../../assets/atlassian.png'
-import dropbox from '../../assets/dropbox.png'
-import shopify from '../../assets/shopify.png'
-
+import mefus from '/Users/jarvp/Github /paddypedalpower/src/img/icons/mefus.png';
+import afal from '/Users/jarvp/Github /paddypedalpower/src/img/icons/afal.png';
+import grawnwin from '/Users/jarvp/Github /paddypedalpower/src/img/icons/grawnwin.png'
 export { 
-    google,
-    slack,
-    atlassian,
-    dropbox,
-    shopify
+    mefus,
+    afal,
+    grawnwin
 }
