@@ -1,0 +1,35 @@
+.features_container { 
+display: flex;
+padding: 5rem 0;
+}
+
+.features_container-heading { 
+    display:flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    max-width: 450px;
+    min-width: 80px;
+}
+
+.features_container-heading h2 { 
+    font-family: var(--font-family);
+}
+.features_container-heading h3 { 
+    font-family: var(--font-family);
+    color: var(--color-text);
+}
+
+
+.features_container-content { 
+    flex-grow: 3;
+    justify-items: center;
+}
+
+.features_container .features-container_feature{
+    justify-content: flex-end;
+}
+
+.features-container_feature { 
+    padding: 10px 0;
+}

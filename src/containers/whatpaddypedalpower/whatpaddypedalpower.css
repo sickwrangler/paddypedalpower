@@ -1,18 +1,25 @@
 
 .whatppp{
+
+display: flex;
+flex-direction: column;
+
+padding:2rem;
+background: var(--color-footer);
+
     background: rgb(52,73,102);
-background: linear-gradient(90deg, rgba(52,73,102,1) 0%, rgba(13,24,33,1) 100%);
+background: linear-gradient(90deg, rgba(52,73,102,1) 0%, rgb(18, 34, 47) 100%);
 }
 
 .whatppp_feature { 
     display: flex;
 }
 
-.whatppp_feature .whatppp_features_container { 
+.whatppp_feature .features-container_feature { 
     margin:0;
 }
 
-.whatppp_feature .whatppp_features_container-text { 
+.whatppp_feature .features-container_feature-text { 
     max-width: 700px;
 
 }
@@ -26,13 +33,13 @@ background: linear-gradient(90deg, rgba(52,73,102,1) 0%, rgba(13,24,33,1) 100%);
     margin: 4rem 0 2rem;
 }
 
-.whatppp-heading h1 { 
+.whatppp-heading h2 { 
     font-family: var(--font-family);
     font-size: 2rem;
     font-style: normal;
     font-weight: 800;
     line-height: 45px;
-    max-width: 700px;
+    max-width: 510px;
 }
 
 .whatppp-heading p { 
@@ -51,7 +58,7 @@ background: linear-gradient(90deg, rgba(52,73,102,1) 0%, rgba(13,24,33,1) 100%);
     margin-top: 2rem;
 }
 
-* Customizing feature component as per needs */
+/* Customizing feature component as per needs */
 .whatppp-container .features-container_feature {
     flex: 1;
     margin: 1rem;

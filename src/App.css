@@ -46,7 +46,7 @@ background-clip: text;
 }
 
 .section_margin { 
-    padding: 4rem 6rem;
+    margin: 4rem 6rem;
 }
 
 
@@ -111,7 +111,7 @@ background-clip: text;
         padding: 4rem;
     }
     .section_margin {
-        padding: 4rem;
+        margin: 4rem;
     }
 
   }
@@ -121,7 +121,7 @@ background-clip: text;
         padding: 4rem 2rem;
     }
     .section_margin {
-        padding: 4rem 2rem;
+        margin: 4rem 2rem;
     }
 
   }

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Article, Brand, CTA, Feature, Navbar } from './components';
-import { Footer, Header, Possibility, Whatpaddypedalpower, Blog} from './containers';
+import { Footer, Header, Possibility, Whatpaddypedalpower, Blog, Features} from './containers';
 
 import "./App.css";
 
@@ -14,7 +14,7 @@ const App = () => {
       </div>
       <Brand/>
       <Whatpaddypedalpower/>
-      <Feature/>
+      <Features/>
       <Possibility/>
       <CTA/>
       <Blog/>

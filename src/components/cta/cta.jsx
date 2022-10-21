@@ -3,7 +3,9 @@ import './cta.css';
 
 const cta = () => {
   return (
-    <div>cta</div>
+    <div className='nasa-wrapper'>
+    <iframe src="https://climate.nasa.gov/interactives/climate_time_machine" width="900" height="700"></iframe>
+    </div>
   )
 }
 
