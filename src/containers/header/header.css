@@ -53,8 +53,8 @@
     height: 40px;
 
 
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .header-content_input button { 
