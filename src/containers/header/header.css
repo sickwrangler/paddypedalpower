@@ -68,7 +68,7 @@ height: 40px;
     font-weight: bold;
     font-size: 1.2rem;
     line-height: 27px;
-    color: black;
+    color: var(--color-text);
     cursor: pointer;
     outline: none;
     padding: 0 1rem;

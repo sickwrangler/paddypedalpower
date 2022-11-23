@@ -52,7 +52,7 @@ cursor: pointer;
     padding: 1rem 1.2rem;
     background: var(--color-subtext);
     border-radius: 5px;
-    color: black;
+    color: var(--color-text);
 font-family: var(--font-family);
 font-weight: bold;
 font-size: 1.2rem;

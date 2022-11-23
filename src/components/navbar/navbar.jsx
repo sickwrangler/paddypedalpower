@@ -1,16 +1,15 @@
 import React, {useState} from 'react'
 import { RiMenu3Line, RiCloseLine} from 'react-icons/ri';
 import { GiDutchBike } from "react-icons/gi";
+import {Link} from 'react-scroll';
 
 import './navbar.css';
 
 const Menu = () => (
   <>
-  <p><a href="#home">Home</a></p>
-          <p><a href="#goal">What is the goal?</a></p>
-          <p><a href="#pedaler">Who is the pedaler?</a></p>
-          <p><a href="#cause">What is the cause?</a></p>
-          <p><a href="#info">Information</a></p>
+          <p><Link to="whatppp" spy={true} smooth={true} offset={-190} duration={500}>The challenge</Link></p>
+          <p><Link to="climate_change" spy={true} smooth={true} offset={50} duration={500}>The cause</Link></p>
+          <p><Link to="challenge" spy={true} smooth={true} offset={0} duration={500}>More information</Link></p>
   </>
 )
 
@@ -22,7 +21,8 @@ const [toggleMenu, setToggleMenu] = useState(false);
     <div className="navbar">
       <div className="navbar-links">
         <div className="navbar-links-logo">
-          <h1 className="logo">Pedal Power</h1> 
+        <Link to="root" spy={true} smooth={true} offset={0} duration={500}>
+          <h1 className="logo">Pedal Power</h1> </Link>
           <GiDutchBike className='slide-right' color="#fff" size={35}></GiDutchBike>
         </div>
         <div className="navbar-links-container">

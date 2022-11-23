@@ -6,12 +6,12 @@ const header = () => {
   return (
     <div className='header section_padding' id='home'>
       <div className='header-content'>
-        <h1 className='gradient_text'>Everesting with my shopping, tackling ty tumblr.</h1>
+        <h1 className='gradient_text'>Everesting with my shopping, tackling y tumblr.</h1>
         
-          <p>Where I live is too hilly to ride my bike.
-             It takes to long to cycle places.
-             I'm not fit enough to ride a bike.
-             It's too dangerous to ride on the roads.
+          <p>"Where I live is too hilly to ride my bike."
+             "It takes to long to cycle places."
+             "I'm not fit enough to ride a bike."
+             "It's too dangerous to ride on the roads."
              Enough excuses, lets show what is possible.
           </p>
           <div className='header-content_input'>

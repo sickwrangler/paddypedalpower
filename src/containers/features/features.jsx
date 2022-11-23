@@ -4,7 +4,7 @@ import Feature from '../../components/feature/Feature';
 
 const features = () => {
   return (
-    <div className='features_container section_margin'>
+    <div className='features_container section_margin' id='climate_change'>
       <div className='features_container-heading'>
         <h2 className='gradient_text'>Scientific evidence for warming of the climate system is unequivocal.</h2>
         <h3>- Intergovernmental Panel on Climate Change</h3>
