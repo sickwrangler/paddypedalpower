@@ -7,9 +7,9 @@ import './navbar.css';
 
 const Menu = () => (
   <>
-          <p><Link to="whatppp" spy={true} smooth={true} offset={-190} duration={500}>The challenge</Link></p>
-          <p><Link to="climate_change" spy={true} smooth={true} offset={50} duration={500}>The cause</Link></p>
-          <p><Link to="challenge" spy={true} smooth={true} offset={0} duration={500}>More information</Link></p>
+          <p><Link to="whatppp" spy={true} smooth={true} offset={-60} duration={500}>The challenge</Link></p>
+          <p><Link to="climate_change" spy={true} smooth={true} offset={0} duration={500}>The cause</Link></p>
+          <p><Link to="challenge" spy={true} smooth={true} offset={30} duration={500}>More information</Link></p>
   </>
 )
 
